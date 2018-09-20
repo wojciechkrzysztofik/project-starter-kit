@@ -1,6 +1,6 @@
-## TODO
-
--- Minimialize CSS
--- Write Readme
--- Remove test tmp data
+## TODO  
+  
+-- Minimialize CSS  
+-- Write Readme   
+-- Remove test tmp data  
 
