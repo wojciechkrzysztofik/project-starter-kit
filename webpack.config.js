@@ -13,6 +13,13 @@ module.exports = {
         use: [{ loader: "html-loader", options: { minimize: true } }]
       },
       {
+        test: /\.js$/,
+        loader: 'babel-loader',
+        query: {
+           presets: ['es2015']
+        }
+      },
+      {
         test: /\.(png|jpe?g)/i,
         use: [
           {
