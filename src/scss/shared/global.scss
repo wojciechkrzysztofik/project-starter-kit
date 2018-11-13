@@ -1,0 +1,21 @@
+/*
+ * Global
+ */
+
+body {
+  font-family: $base-font;
+  font-size: 12px;
+  
+  padding-top: 60px;
+}
+
+// some sandbox rules
+.main {
+  background: $color-grey-light;
+  color: $color-black;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
